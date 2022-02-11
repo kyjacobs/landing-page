@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+li {
+    text-decoration: none;
+    color: #fedebe;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    height: 10vh;
+    background-color: #ff8303;
+    color: #fedebe;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
