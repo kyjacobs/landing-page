@@ -17,7 +17,7 @@ ul {
 
 li {
     text-decoration: none;
-    color: #fedebe;
+    color: white;
 }
 
 a {
@@ -27,7 +27,7 @@ a {
 .header {
     height: 10vh;
     background-color: #ff8303;
-    color: #fedebe;
+    color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -40,7 +40,7 @@ a {
 
 .flex-container-1 {
     background-color: #ff8303;
-    color: #f0cdab;
+    color: white;
     font-size: 18px;
     display: flex;
     justify-content: space-around;
@@ -55,12 +55,19 @@ a {
     margin: 0 100px;
 }
 
+.flex-container-3 {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    margin: 75px 0;
+}
+
 .col-container {
     width: 30vw;
 }
 
 .hero-text {
-    color: #fedebe;
+    color: white;
     font-size: 48px;
     font-weight: 1000;
 }
@@ -126,4 +133,53 @@ a {
     align-self: flex-end;
     margin-right: 20vw;
 }
+
+.action-container {
+    background-color: #fd5602;
+    color: white;
+    height: 15vh;
+    width: 50vw;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.action-text {
+    width: 25vw;
+}
+
+.action-text-big {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: -10px;
+}
+
+.action-button {
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    color: white;
+    background-color: #fd5602;
+    border: 2px solid white;
+}
+.hero-button {
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    color: white;
+    background-color: #ff8303;
+    border: 2px solid white;
+}
+
+.footer {
+    background-color: #ff8303;
+    color: white;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
 
